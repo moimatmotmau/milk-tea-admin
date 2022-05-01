@@ -1,0 +1,16 @@
+.success {
+    margin: 0;
+    color: green;
+    font-weight: bold;
+}
+.un_success {
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.wait {
+    margin: 0;
+    color: rgb(184, 184, 16);
+    font-weight: bold;
+}

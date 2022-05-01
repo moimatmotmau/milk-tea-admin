@@ -1,0 +1,23 @@
+.title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.button {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 991px) {
+    .button {
+        margin-right: 0px;
+    }
+
+    .button:last-child {
+        margin-left: 8px;
+    }
+}

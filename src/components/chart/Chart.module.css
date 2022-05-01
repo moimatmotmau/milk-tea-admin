@@ -1,0 +1,19 @@
+.chartTitle {
+    font-size: 1.1rem;
+}
+
+.chartResetButton {
+    margin-top: 24px;
+    padding: 4px 20px;
+    border: 1px solid #1890ff;
+    color: #1890ff;
+    background-color: #fff;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.chartResetButton:hover {
+    border: 1px solid #1890ff;
+    color: #fff;
+    background-color: #1890ff;
+}
