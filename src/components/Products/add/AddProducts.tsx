@@ -205,12 +205,12 @@ const AddProducts = () => {
                         <Checkbox.Group>
                             <Row>
                                 <Col>
-                                    <Checkbox value="1" style={{ lineHeight: '32px' }}>
+                                    <Checkbox value="1" checked={true} style={{ lineHeight: '32px' }}>
                                         Size M
                                     </Checkbox>
                                 </Col>
                                 <Col>
-                                    <Checkbox value="2" style={{ lineHeight: '32px' }}>
+                                    <Checkbox value="2" checked={true} style={{ lineHeight: '32px' }}>
                                         Size L
                                     </Checkbox>
                                 </Col>
