@@ -11,7 +11,7 @@ export const initialValues: any = {
     address: '',
     cart: [],
     orders: [],
-    id: '',
+    _id: '',
 }
 
 if (!localStorage.getItem('account')) {

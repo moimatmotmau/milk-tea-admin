@@ -3,15 +3,14 @@ import axios from 'axios';
 import { useRecoilState } from 'recoil';
 import { accountState } from '../RecoilProvider/RecoilProvider';
 import { Button, Modal, Form, Input, message } from 'antd';
-import { usersApi, adminId } from '../../api';
+import { usersApi } from '../../api'; 
 
-const api = `${usersApi}/${adminId}`;
 
 const ChangePassword: React.FC<{ isModalVisible: boolean, setIsModalVisible: Function }> = ({ isModalVisible, setIsModalVisible }) => {
     const [account, setAccount] = useRecoilState(accountState);
     const [confirmLoading, setConfirmLoading] = useState<boolean>(false);
     const [form] = Form.useForm();
-
+    const api = `${usersApi}/${account._id}`;
     const handleCancel = () => {
         form.resetFields();
         setIsModalVisible(false);

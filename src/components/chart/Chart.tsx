@@ -18,18 +18,18 @@ const Chart = () => {
     const preMonth = String(today.getMonth() - 1 < 1 ? today.getMonth() + 11 : today.getMonth() - 1)
     const covertMonth = (month: string) => {
         switch (month) {
-            case '1': return 'Jan'; break;
-            case '2': return 'Feb'; break;
-            case '3': return 'Mar'; break;
-            case '4': return 'Apr'; break;
-            case '5': return 'May'; break;
-            case '6': return 'Jun'; break;
-            case '7': return 'Jul'; break;
-            case '8': return 'Aug'; break;
-            case '9': return 'Sep'; break;
-            case '10': return 'Oct'; break;
-            case '11': return 'Nov'; break;
-            case '12': return 'Dec'; break;
+            case '1': return 'Jan'
+            case '2': return 'Feb'
+            case '3': return 'Mar'
+            case '4': return 'Apr'
+            case '5': return 'May'
+            case '6': return 'Jun'
+            case '7': return 'Jul'
+            case '8': return 'Aug'
+            case '9': return 'Sep'
+            case '10': return 'Oct'
+            case '11': return 'Nov'
+            case '12': return 'Dec'
         }
     }
     const [data, setData] = useState<chartData[]>([
