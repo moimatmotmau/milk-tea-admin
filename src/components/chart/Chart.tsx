@@ -50,7 +50,7 @@ const Chart = () => {
         let updateOrder = await axios.get(api)
             .then(response => {
                 setDataFill(response.data);
-                setData([])
+                setData ([])
             })
             .then(() => {
                 if (dataFill) {
@@ -117,7 +117,7 @@ const Chart = () => {
             shape: 'diamond',
             style: {
                 fill: 'white',
-                stroke: '#5B8FF9',
+                stroke: '#5f5f5f',
                 lineWidth: 2,
             },
         },
